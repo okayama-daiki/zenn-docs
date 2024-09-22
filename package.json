@@ -1,0 +1,15 @@
+{
+  "name": "zenn-docs",
+  "version": "1.0.0",
+  "description": "Docs repository used mainly for deploying to zenn.dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daiki Okayama (lawliet.d.k.m@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "zenn-cli": "^0.1.157"
+  }
+}
