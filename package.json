@@ -10,6 +10,6 @@
     "author": "Daiki Okayama (lawliet.d.k.m@gmail.com)",
     "license": "ISC",
     "dependencies": {
-        "zenn-cli": "^0.1.157"
+        "zenn-cli": "^0.3.0"
     }
 }
