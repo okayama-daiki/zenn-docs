@@ -118,7 +118,7 @@ StackExchange で投稿された質問「bibtex vs. biber and biblatex vs. natbi
 
 インストールすれば、コマンドラインで `platex` や `lualatex`、`biber` といったコマンドが利用可能になります。以前話題に上がった $\LaTeX$ エンジンに対応するコマンドもここに含まれます。例えば`platex main.tex` を実行すると、p$\TeX$ エンジンの上で、p$\LaTeX$ マクロパッケージのコマンドが展開されながら `main.tex` が解釈・処理されるでしょうし、`lualatex main.tex` なら Lua$\TeX$ エンジンの上で $\LaTeX$ マクロパッケージが用いられて文章のコンパイルが行われます。
 
-## 実践：手作業コンパイル〜latexmk　の素晴らしさを知ろう
+## 実践：手作業コンパイル〜latexmk の素晴らしさを知ろう
 
 さて、ここまで $\LaTeX$ を取り巻く複雑な用語を整理してきました。
 実際にエラーなく文書をコンパイルできるかどうかは別として、
