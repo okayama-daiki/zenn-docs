@@ -102,7 +102,7 @@ $\TeX$ エンジンによって使えるコマンドが変わってくるので�
 ## 参考文献：Bib$\TeX$ とは何か。何を使えばいいのか。
 
 ドキュメントクラスと $\TeX$ エンジン、マクロパッケージ $\LaTeX$ よりも混乱に陥りやすいテーマであることは間違いないですが、良いニュースがあります。
-StackExchanage で投稿された質問「bibtex vs. biber and biblatex vs. natbib」にて、Alan Munn [^stackexchange] による洗練された素晴らしい回答がありますので、要点を絞ってお伝えします。興味がある方は Alan の回答をご覧ください。
+StackExchange で投稿された質問「bibtex vs. biber and biblatex vs. natbib」にて、Alan Munn [^stackexchange] による洗練された素晴らしい回答がありますので、要点を絞ってお伝えします。興味がある方は Alan の回答をご覧ください。
 
 第一に、特に指定しない場合 $\LaTeX$ の文献処理では Bib$\TeX$ を用います。つまり、特段のパッケージの読み込みを行う必要なしに、`\cite` 命令や `\bibliographystyle`、`\bibliography` 命令を使うことができます。（なお、ここで `natbib` パッケージを読み込むことで、より表現力の高い` \citet`, `\citep` 命令を使うことができます。）$\LaTeX$ のコンパイルの手順の中で Bib$\TeX$ を呼び出すことで、.bib ファイルの文献リストが処理されます。その結果 .bst ファイルに従って整形された .bbl ファイルが生成されます。$\LaTeX$ はこの .bbl ファイルを読み込みながら文書全体のコンパイルを進める流れになります。
 
